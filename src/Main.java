@@ -26,11 +26,14 @@ class Randomize {
             A[i] = A[j];
             A[j] = temp;
 
-            System.out.println("Iteration: " + i);
+            System.out.println("Iteration i: " + (i+1));
+            System.out.println("Random(" + (i+1) + "," + n + ") = " + (j+1));
             System.out.println(Arrays.toString(A));
             System.out.println("Swapped element " + (i+1) + " with element " + (j+1) + "\n");
 
         }
+
+        System.out.println("Randomized array: " + Arrays.toString(A));
 
     }
 
