@@ -1,45 +1,56 @@
 Original array:
 [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-Iteration: 0
-[9, 2, 3, 4, 5, 6, 7, 8, 1, 10]
-Swapped element 1 with element 9
+Iteration i: 1
+Random(1,10) = 7
+[7, 2, 3, 4, 5, 6, 1, 8, 9, 10]
+Swapped element 1 with element 7
 
-Iteration: 1
-[9, 7, 3, 4, 5, 6, 2, 8, 1, 10]
-Swapped element 2 with element 7
+Iteration i: 2
+Random(2,10) = 2
+[7, 2, 3, 4, 5, 6, 1, 8, 9, 10]
+Swapped element 2 with element 2
 
-Iteration: 2
-[9, 7, 1, 4, 5, 6, 2, 8, 3, 10]
-Swapped element 3 with element 9
+Iteration i: 3
+Random(3,10) = 6
+[7, 2, 6, 4, 5, 3, 1, 8, 9, 10]
+Swapped element 3 with element 6
 
-Iteration: 3
-[9, 7, 1, 8, 5, 6, 2, 4, 3, 10]
-Swapped element 4 with element 8
+Iteration i: 4
+Random(4,10) = 7
+[7, 2, 6, 1, 5, 3, 4, 8, 9, 10]
+Swapped element 4 with element 7
 
-Iteration: 4
-[9, 7, 1, 8, 5, 6, 2, 4, 3, 10]
-Swapped element 5 with element 5
+Iteration i: 5
+Random(5,10) = 7
+[7, 2, 6, 1, 4, 3, 5, 8, 9, 10]
+Swapped element 5 with element 7
 
-Iteration: 5
-[9, 7, 1, 8, 5, 3, 2, 4, 6, 10]
+Iteration i: 6
+Random(6,10) = 9
+[7, 2, 6, 1, 4, 9, 5, 8, 3, 10]
 Swapped element 6 with element 9
 
-Iteration: 6
-[9, 7, 1, 8, 5, 3, 4, 2, 6, 10]
-Swapped element 7 with element 8
+Iteration i: 7
+Random(7,10) = 7
+[7, 2, 6, 1, 4, 9, 5, 8, 3, 10]
+Swapped element 7 with element 7
 
-Iteration: 7
-[9, 7, 1, 8, 5, 3, 4, 2, 6, 10]
+Iteration i: 8
+Random(8,10) = 8
+[7, 2, 6, 1, 4, 9, 5, 8, 3, 10]
 Swapped element 8 with element 8
 
-Iteration: 8
-[9, 7, 1, 8, 5, 3, 4, 2, 10, 6]
+Iteration i: 9
+Random(9,10) = 10
+[7, 2, 6, 1, 4, 9, 5, 8, 10, 3]
 Swapped element 9 with element 10
 
-Iteration: 9
-[9, 7, 1, 8, 5, 3, 4, 2, 10, 6]
+Iteration i: 10
+Random(10,10) = 10
+[7, 2, 6, 1, 4, 9, 5, 8, 10, 3]
 Swapped element 10 with element 10
 
+Randomized array: [7, 2, 6, 1, 4, 9, 5, 8, 10, 3]
 
 Process finished with exit code 0
